@@ -1,0 +1,252 @@
+/*
+   google-docs-css
+   a hasty style sheet by Merlin Mann
+   http://www.github.com.com/merlinmann/google-docs-css
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: Georgia, Palatino, "Palatino Linotype", "Book Antiqua", "URW Palladio L", serif;
+	vertical-align: baseline;
+}
+
+*:focus 
+{
+	
+}
+
+img a 
+{
+	border: none;
+}
+
+body 
+{
+	line-height: 1.5;
+	color: #333333;
+	font-size: 99%;
+}
+
+/* @group Headings */
+
+h1 
+{
+	font-weight: bold;
+	color: #333333;
+	font-size: 3em;
+	line-height: 1;
+	margin-bottom: 0.5em;
+}
+
+h1 img 
+{
+	margin: 0;
+	color: #333333;
+}
+
+h2 
+{
+	background: #dedede;
+	color: #333;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	padding: 5px 10px;
+
+
+/*
+
+text-shadow: #000000 0 0 0px; */
+}
+
+h3 
+{
+	font-weight: bold;
+	background: #eee;
+	padding: 5px 10px;
+}
+
+h4 
+{
+	font-weight: bold;
+}
+
+h5 
+{
+	font-weight: normal;
+	color: #333333;
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 1.5em;
+}
+
+h6 
+{
+	font-weight: normal;
+	color: #333333;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+	font-family: 'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+/* @end */
+
+body 
+{
+	margin: 20px 50px 0 50px;
+}
+
+p 
+{
+	margin: 0 0 1.5em;
+}
+
+p img.left 
+{
+	display: inline;
+	float: left;
+	margin: 1.5em 1.5em 1.5em 0;
+	padding: 0;
+}
+
+a 
+{
+	text-decoration: underline;
+	color: #2e5092;
+}
+
+a:visited 
+{
+	color: #2e5092;
+}
+
+a:focus 
+{
+	color: black;
+}
+
+a:hover 
+{
+	color: black;
+}
+
+a:active 
+{
+	color: #cc0000;
+}
+
+blockquote 
+{
+	margin: 1.5em;
+	color: #666;
+	font-style: italic;
+}
+
+strong 
+{
+	font-weight: bold;
+}
+
+em 
+{
+	font-style: italic;
+}
+
+dfn 
+{
+	font-style: italic;
+	font-weight: bold;
+}
+
+sup, sub 
+{
+	line-height: 0;
+}
+
+abbr, acronym 
+{
+	border-bottom: 1px dotted #666;
+}
+
+address 
+{
+	margin: 0 0 1.5em;
+	font-style: italic;
+}
+
+li ul, li ol 
+{
+	margin: 0 1.5em;
+	list-style-position: outside;
+	opacity: 0.9;
+}
+
+ul 
+{
+	margin: 0 1.5em 1.5em 1.5em;
+	list-style-type: square;
+	list-style-position: outside;
+	opacity: 0.9;
+}
+
+ol 
+{
+	margin: 0 1.5em 1.5em 1.5em;
+	list-style-type: decimal;
+	list-style-position: outside;
+	opacity: 0.9;
+}
+
+code 
+{
+	font-family: Pragmata, Inconsolata, "Courier New", Courier, mono;
+}
+
+/* @group Fancy Typography */
+
+.font-family-sans-serif-sm,
+.font-family-sans-serif-sm .form-text 
+{
+	font-family: Arial, Helvetica, "Nimbus Sans L", FreeSans, sans-serif;
+}
+
+.font-family-sans-serif-lg,
+.font-family-sans-serif-lg .form-text 
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.font-family-serif-sm,
+.font-family-serif-sm .form-text 
+{
+	font-family: Garamond, Perpetua, "Nimbus Roman No9 L", "Times New Roman", serif;
+}
+
+.font-family-serif-lg,
+.font-family-serif-lg .form-text 
+{
+	font-family: Georgia, Palatino, "Palatino Linotype", "Book Antiqua", "URW Palladio L", serif;
+}
+
+.font-family-myriad,
+.font-family-myriad .form-text 
+{
+	font-family: "Myriad Pro", Myriad, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.font-family-lucida,
+.font-family-lucida .form-text 
+{
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, Geneva, sans-serif;
+}
+
+/* @end */
