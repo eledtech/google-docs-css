@@ -1,7 +1,7 @@
 
 # README for `google-docs-css` #
 
-A hopefully not-too-ugly, Shane-n-Bake style sheet for [Google Docs][1]. Mentioned in passing on [MacBreak Weekly][2], [Episode 185][3].[^fn1]
+A hopefully not-too-ugly, Shane-n-Bake style sheet for [Google Docs][1]. Mentioned in passing on [MacBreak Weekly][2], [Episode 185][3].
 
 To use this dumb little thingee:
 
@@ -25,5 +25,8 @@ I love you,
 [4]: http://merlinmann.com
 
 
-[^fn1]: Happy Birthday, Jerry Lewis.
 
+
+<!-- 
+	Happy Birthday, Jerry Lewis.
+ -->
